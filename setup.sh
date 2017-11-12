@@ -98,6 +98,10 @@ sudo easy_install starcluster
 #####################
 sudo apt-get install python-openopt python-pyaudio
 sudo pip install enum34
+sudo add-apt-repository ppa:ubuntu-toolchain-r/rust
+sudo apt-get update
+sudo apt-get install llvm-4.0 llvm-4.0-dev clang-4.0
+sudo LLVM_CONFIG=/usr/bin/llvm-config-4.0 pip install llvmlite 
 sudo pip install librosa
 
 ## git (After adding key)
