@@ -173,5 +173,6 @@ source ~/tensorflow/bin/activate
 easy_install -U pip
 pip install --upgrade tensorflow 
 sudo pip install keras
-
+sudo apt-get install libhdf5-dev 
+sudo pip install h5py
 
