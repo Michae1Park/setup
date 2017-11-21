@@ -1,3 +1,5 @@
+# create a folder ~/git/dpark_setup before running this script
+
 #####################
 # (1) Util
 #####################
@@ -165,7 +167,11 @@ catkin_make_isolated --only-pkg-with-deps hrl_anomaly_detection --merge
 #####################
 # (5) KERAS/TENSORFLOW INSTALL
 #####################
-
-
+sudo apt-get install python-pip python-dev python-virtualenv
+virtualenv --system-site-packages ~/tensorflow
+source ~/tensorflow/bin/activate
+easy_install -U pip
+pip install --upgrade tensorflow 
+sudo pip install keras
 
 
