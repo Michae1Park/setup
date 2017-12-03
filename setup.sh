@@ -126,6 +126,11 @@ sudo apt-get install llvm-4.0 llvm-4.0-dev clang-4.0
 sudo LLVM_CONFIG=/usr/bin/llvm-config-4.0 pip install llvmlite 
 sudo pip install librosa
 
+#roslaunch freenect_launch freenect.launch
+sudo apt-get install libfreenect-dev
+sudo apt-get install ros-indigo-freenect-launch
+sudo apt-get install ros-indigo-ar-track-alvar
+
 ## git (After adding key)
 #cd ~/git
 cd ~/catkin_ws/src/
